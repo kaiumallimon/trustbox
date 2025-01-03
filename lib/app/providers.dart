@@ -1,5 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../blocs/auth_bloc.dart';
+import '../blocs/navigation_bloc.dart';
 import '../blocs/splash_bloc.dart';
 import '../repositories/auth_repository.dart';
 
@@ -12,5 +13,11 @@ final providers = [
   // auth bloc
   BlocProvider<AuthBloc>(
     create: (context) => AuthBloc(AuthRepository()),
+  ),
+
+
+  // navigation cubit
+  BlocProvider<NavigationCubit>(
+    create: (context) => NavigationCubit(),
   ),
 ];
