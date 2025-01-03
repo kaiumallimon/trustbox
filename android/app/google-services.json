@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "265434594949-gbocle6upfh621rnt065ijcad3i9tg94.apps.googleusercontent.com",
+          "client_id": "265434594949-8bq4d7tnaa4ovnjp0a9pq7tt44mu5hbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kal.trustbox",
+            "certificate_hash": "27b8cf7c5d3ee159db739569a0b65bd64dd3108e"
+          }
+        },
+        {
+          "client_id": "265434594949-si4pmqrp8fo0i2lh50pju6oil5mi9nk7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,8 +35,15 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "265434594949-gbocle6upfh621rnt065ijcad3i9tg94.apps.googleusercontent.com",
+              "client_id": "265434594949-7en4jim5lb2fip9qvotbuj06kv288tu8.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "265434594949-2d2cigi8njivptqc7m3b1ucs7nbm8l50.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kal.trustbox"
+              }
             }
           ]
         }
