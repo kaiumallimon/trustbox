@@ -5,7 +5,7 @@ class TrustboxTheme {
   // light theme
   ThemeData getTheme() => ThemeData(
       useMaterial3: true,
-      fontFamily: GoogleFonts.poppins().fontFamily,
+      fontFamily: GoogleFonts.inter().fontFamily,
       colorScheme: ColorScheme.fromSeed(
         brightness: Brightness.dark,
         seedColor: const Color(0xFF63A002),
@@ -37,7 +37,7 @@ class TrustboxTheme {
   // dark theme
   ThemeData getDarkTheme() => ThemeData(
       useMaterial3: true,
-      fontFamily: GoogleFonts.poppins().fontFamily,
+      fontFamily: GoogleFonts.inter().fontFamily,
       colorScheme: ColorScheme.fromSeed(
         brightness: Brightness.light,
         seedColor: const Color(0xFF63A002),
