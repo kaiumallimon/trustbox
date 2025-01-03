@@ -10,7 +10,7 @@ final providers = [
   ),
 
   // auth bloc
-  BlocProvider<AuthCubit>(
-    create: (context) => AuthCubit(AuthRepository()),
+  BlocProvider<AuthBloc>(
+    create: (context) => AuthBloc(AuthRepository()),
   ),
 ];
