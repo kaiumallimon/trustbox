@@ -33,13 +33,13 @@ class HomeScreen extends StatelessWidget {
           case 1:
             return GeneratePassScreen();
           default:
-            return Center(
+            return const Center(
               child: Text('Home Screen'),
             );
         }
       }),
       bottomNavigationBar: CustomBottomNavigationBar(theme: theme),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
