@@ -1,5 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../blocs/auth_bloc.dart';
+import '../blocs/home_bloc.dart';
 import '../blocs/navigation_bloc.dart';
 import '../blocs/splash_bloc.dart';
 import '../repositories/auth_repository.dart';
@@ -19,5 +20,10 @@ final providers = [
   // navigation cubit
   BlocProvider<NavigationCubit>(
     create: (context) => NavigationCubit(),
+  ),
+
+  // home bloc
+  BlocProvider<HomeBloc>(
+    create: (context) => HomeBloc(),
   ),
 ];
