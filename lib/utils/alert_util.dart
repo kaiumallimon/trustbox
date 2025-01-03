@@ -19,3 +19,10 @@ void showErrorAlert(BuildContext context, String message, Function? onConfirm) {
 }
 
 
+void showConfirmAlert(BuildContext context, String message, Function? onConfirm) {
+  QuickAlert.show(
+      context: context,
+      type: QuickAlertType.confirm,
+      text: message,
+      onConfirmBtnTap: onConfirm!());
+}
